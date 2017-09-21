@@ -242,7 +242,7 @@ ol::after{
     display: inline-block;
     float: left;
   /*  left: 0;*/
-    width: 6%;
+    width: 1%;
     /*transform: rotate(-45deg);*/
     font: bold 9px arial;
     color:#fff;
