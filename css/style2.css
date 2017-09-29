@@ -344,4 +344,14 @@ ol::after{
   .fullscreen-bg__video {
     display: none;
   }
+  
+  @media-screen ( max-width: 600px){
+    /*then add CSS*/
+    /*To hide the arrow add this */
+    .container{
+        display: none;
+    }
+}
+
+
 }
