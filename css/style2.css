@@ -374,6 +374,10 @@ ol::after{
   .fullscreen-bg {
     background: url('../img/beijing_TempleOfHeaven-Vignette.png') center center / cover no-repeat;
   }
+  .invert{
+    width:50%;
+    height:auto;
+  }
   /*.fab{
     display: none;
   }
