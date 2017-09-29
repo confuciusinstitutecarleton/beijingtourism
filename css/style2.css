@@ -312,15 +312,7 @@ ol::after{
 
 }
 
-
-
-
-
-
-
-
-
-
+.invert {-webkit-filter: invert(100%); filter: invert(100%);}
 
 @media (min-aspect-ratio: 16/9) {
   .fullscreen-bg__video {
@@ -344,14 +336,10 @@ ol::after{
   .fullscreen-bg__video {
     display: none;
   }
-  
-  @media-screen ( max-width: 600px){
-    /*then add CSS*/
-    /*To hide the arrow add this */
-    .container{
-        display: none;
-    }
 }
 
-
+@media-screen ( max-width: 600px){
+  .content, .container, .arrow-top, .arrow-middle, .arrow-bottom{
+        display: none;
+    }
 }
