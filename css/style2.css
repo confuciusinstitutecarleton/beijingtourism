@@ -333,13 +333,7 @@ ol::after{
     background: url('../img/beijing_TempleOfHeaven-Vignette.png') center center / cover no-repeat;
   }
 
-  .fullscreen-bg__video {
+  .fullscreen-bg__video, .content, .container, .arrow-top, .arrow-middle, .arrow-bottom {
     display: none;
   }
-}
-
-@media-screen ( max-width: 600px){
-  .content, .container, .arrow-top, .arrow-middle, .arrow-bottom{
-        display: none;
-    }
 }
