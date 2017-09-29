@@ -312,6 +312,48 @@ ol::after{
 
 }
 
+.fab {
+   z-index:50;
+   width: 165px;
+   height: 37.5px;
+   background-color: #4286f4 ;
+   border-radius: 5px;
+   transition: all 0.1s ease-in-out;
+   /*line-height: 30px;*/
+   text-align: center;
+   margin-top: 5%;
+   padding: 10px;
+   color:#FFF;
+  font
+  font-size: 10px;
+   opacity: 1;
+}
+ 
+.fab:hover{
+   transform: scale(1.05);
+   opacity: 1;
+}
+
+
+.btnContainer{
+   z-index:100;
+   position: fixed;
+   right: 50px;
+   bottom: 50px;
+}
+
+.addtocalendar:{
+  transition: all 0.1s ease-in-out;
+}
+
+.addtocalendar:hover{
+  transition: all 0.1s ease-in-out;
+  transform: scale(1.05);
+}
+
+
+
+
 .invert {-webkit-filter: invert(100%); filter: invert(100%);}
 
 @media (min-aspect-ratio: 16/9) {
@@ -332,7 +374,10 @@ ol::after{
   .fullscreen-bg {
     background: url('../img/beijing_TempleOfHeaven-Vignette.png') center center / cover no-repeat;
   }
-
+  /*.fab{
+    display: none;
+  }
+*/
   .fullscreen-bg__video, .content, .container, .arrow-top, .arrow-middle, .arrow-bottom {
     display: none;
   }

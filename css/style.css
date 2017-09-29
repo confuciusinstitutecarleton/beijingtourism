@@ -560,34 +560,3 @@ polygon {
     transform: translateX(0);
   }
 }
-
-.fab {
-   z-index:50;
-   width: auto;
-   height: auto;
-   background-color: #fff ;
-   /*border-radius: 50%;*/
-   border-radius: 10px;
-   transition: all 0.1s ease-in-out;
- 
-   /*font-size: 50px;*/
-   color: black;
-   /*text-align: center;*/
-   line-height: 30px;
-   margin: 10px;
-   padding: 10px;
- 
-   position: fixed;
-   right: 50px;
-   bottom: 50px;
-   opacity: 0.5;
-}
- 
-.fab:hover{
-   transform: scale(1.05);
-   opacity: 0.90;
-}
-mobile css current
-.fab{
-    display:none;
-}
